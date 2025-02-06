@@ -205,34 +205,6 @@
             display: none;
             /* 預設不顯示 */
         }
-
-        .why {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-        }
-
-        .whyBox {
-            background-color: rgba(215, 209, 203, 0.3);
-            border-radius: 8px;
-            margin: 0 2px;
-            padding: 20px;
-            box-shadow: 2px 2px 2px rgba(211, 209, 205, 0.5);
-        }
-
-        .shop {
-            width: 80%;
-            margin: auto;
-            background-color: rgba(215, 209, 203, 0.3);
-            border-radius: 8px;
-            padding: 10px;
-        }
-
-        .shop img {
-            margin-top: 10%;
-            border-radius: 8px;
-            box-shadow: 2px 2px 2px rgba(88, 87, 84, 0.5);
-        }
     </style>
 </head>
 
@@ -343,19 +315,19 @@
             <div class="" id="">
                 <h2 class="fw-bold text-center">為何選用Woodenfloor</h2>
                 <hr class="mx-auto" style="width: 15%; border-top: 2px solid #999;">
-                <div class="row why">
-                    <div class="col-sm-3 text-center mb-4 mt-5 whyBox">
+                <div class="row">
+                    <div class="col-sm-4 text-center mb-4 mt-5">
                         <p class="mb-5 fw-bold fs-4">Woodenfloor原料純粹自然，獨家天然塗層技術</p>
                         <img src="https://www.haroflooring.com.tw/wp-content/uploads/laminate-100-square.jpg" alt=""
                             class="img-fluid">
                     </div>
-                    <div class="col-sm-3 text-center mb-4 mt-5 whyBox">
+                    <div class="col-sm-4 text-center mb-4 mt-5">
                         <p class="mb-5 fw-bold fs-4">採用可持續林業的 PEFC 認證木材</p>
                         <img src="https://www.mingjyun.com.tw/cdn/shop/articles/PEFC.jpg?v=1590737489" alt=""
                             class="img-fluid">
 
                     </div>
-                    <div class="col-sm-3 text-center mb-4 mt-5 whyBox">
+                    <div class="col-sm-4 text-center mb-4 mt-5">
                         <p class="mb-5 fw-bold fs-4">擁有國際認證建康環保標章共12個</p>
                         <img src="https://www.kronotex.com.tw/USER/Userfile/file/ff240223114538417672.png" alt=""
                             class="img-fluid">
@@ -365,29 +337,13 @@
 
             </div>
         </div>
-        <!-- <hr class="featurette-divider"> -->
-
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 whyBox mx-auto text-center">
-                    <h2 class="fw-bold">木地板環保特性比較</h2>
-                    <canvas id="ecoChart"></canvas>
-                </div>
-                <div class="col-sm-5 text-center mx-auto whyBox">
-                    <h2 class="fw-bold">木地板種類市場分佈</h2>
-                    <canvas id="floorChart"></canvas>
-                </div>
-
-            </div>
-        </div>
-        <br>
         <hr class="featurette-divider">
         <!-- 品牌故事 story -->
         <div class="vh-75 mt-5 mb-5 mt-5">
             <div class="story" id="story">
                 <div class="row">
                     <div class="col-sm-7 text-center mb-4 mt-5">
-                        <h2 class="fw-bold"><i class="fa-solid fa-tree me-3 text-secondary"></i>品牌故事</h2>
+                        <h2 class="fw-bold">品牌故事</h2>
                         <hr class="mx-auto" style="width: 15%; border-top: 2px solid #999;">
                         <p>全球最大德國第一品牌</p>
                         <p>建於1897年，120餘年歷史，全球最大木業集團生產商，</p>
@@ -412,7 +368,7 @@
                 <div class="container mb-5 mt-5" id="popular">
                     <div class="row">
                         <div class="col-sm-3">
-                            <h2 class="fw-bold mt-5"><i class="fa-solid fa-fire me-3 text-danger"></i>最受歡迎</h2>
+                            <h2 class="fw-bold mt-5">最受歡迎</h2>
                         </div>
                         <div class="col-sm-3 mouseenter">
                             <div id="pic1">
@@ -569,8 +525,9 @@
                                 <img src="./image/goods.png" class="img-fluid" alt="">
                             </div>
                             <div class="col-sm-2 mx-auto">
-                                <h2 class="fw-bold mt-5 text-center">
-                                    <p class="mt-5"><i class="fa-solid fa-thumbs-up me-3 text-danger"></i>好評推薦</p>
+                                <h2 class="fw-bold mt-5 text-center"><img src="./image/like.png" alt="" width="20%"
+                                        height="auto">
+                                    <p class="mt-5">好評推薦</p>
                                 </h2>
                                 <hr class="mx-auto" style="width: 55%; border-top: 2px solid #999;">
                                 <p class="mt-5 text-center"><span class="fs-5 fw-bold">100+</span> 位網紅
@@ -583,16 +540,16 @@
                     </div>
                 </div>
             </div>
-            <!-- <hr class="featurette-divider"> -->
+            <hr class="featurette-divider">
 
             <!-- 展示中心 shop -->
-            <div class="vh-75 mb-5">
+            <div class="vh-75">
                 <div class="shop" id="shop">
                     <div class="contact mb-5 mt-5">
                         <div class="row">
                             <!-- 展示中心 -->
                             <div class="col-sm-6 text-center mb-4">
-                                <h2 class="fw-bold mt-5"><i class="fa-solid fa-shop me-3 text-warning"></i>展示中心</h2>
+                                <h2 class="fw-bold mt-5">展示中心</h2>
                                 <hr class="mx-auto" style="width: 15%; border-top: 2px solid #999;">
                                 <p class="fw-bold mt-5">Woodenfloor-泰山門市</p>
                                 <p>地址：新北市泰山區貴子里致遠新村55之1號</p>
@@ -621,7 +578,7 @@
             <div class="vh-75">
                 <div class="contact" id="contact">
                     <div class="text-center mb-4">
-                        <h2 class="fw-bold mt-5"><i class="fa-solid fa-comment-dots me-3 text-success"></i>聯絡我們</h2>
+                        <h2 class="fw-bold mt-5">聯絡我們</h2>
                         <hr class="mx-auto mb-5" style="width: 15%; border-top: 2px solid #999;">
                         <div class="container">
                             <div class="row">
@@ -735,7 +692,7 @@
                 </div>
             </div>
 
-            <!-- <hr class="featurette-divider"> -->
+            <hr class="featurette-divider">
 
             <!-- iframe -->
             <div class="contact mb-5 mt-5" id="contact">
@@ -803,12 +760,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <!-- chart js -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <!-- font awesome free icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- mouseenter圖片放大效果 -->
     <script>
@@ -974,135 +925,6 @@
                 $('html, body').animate({ scrollTop: 0 }, 'smooth');
             });
         });
-
-        // 創建雷達圖
-        var ctx = document.getElementById('ecoChart').getContext('2d');
-        var ecoChart = new Chart(ctx, {
-            type: 'radar', // 使用雷達圖
-            data: {
-                labels: ['可再生資源', '環保認證', '碳足跡計算', '低揮發性有機化合物', '材料回收利用'], // 環保指標
-                datasets: [{
-                    label: '超耐磨地板',
-                    data: [80, 90, 85, 95, 90], // 超耐磨地板在各指標的得分
-                    backgroundColor: 'rgba(217, 174, 171, 0.3)', // 奶油色（超耐磨木地板）
-                    borderColor: 'rgba(175, 132, 129, 1)', // 深奶油色邊框
-                    borderWidth: 1,
-                    hoverBorderColor: 'rgba(175, 132, 129, 1)', // 滑鼠懸停時的邊框顏色
-                    hoverBackgroundColor: 'rgba(175, 132, 129, 0.3)', // 滑鼠懸停時的背景顏色
-                }, {
-                    label: '實木地板',
-                    data: [75, 85, 70, 65, 80], // 實木地板在各指標的得分
-                    backgroundColor: 'rgba(243, 207, 185, 0.2)', // 淺粉色（實木地板）
-                    borderColor: 'rgba(193, 159, 135, 1)', // 深粉色邊框
-                    borderWidth: 1,
-                    hoverBorderColor: 'rgba(193, 159, 135, 1)', // 滑鼠懸停時的邊框顏色
-                    hoverBackgroundColor: 'rgba(193, 159, 135, 0.3)', // 滑鼠懸停時的背景顏色
-                }, {
-                    label: '復合木地板',
-                    data: [65, 70, 60, 60, 75], // 復合木地板在各指標的得分
-                    backgroundColor: 'rgba(179, 157, 174, 0.1)', // 淺灰紫色（復合木地板）
-                    borderColor: 'rgba(148, 134, 142, 1)', // 深灰紫色邊框
-                    borderWidth: 1,
-                    hoverBorderColor: 'rgba(148, 134, 142, 1)', // 滑鼠懸停時的邊框顏色
-                    hoverBackgroundColor: 'rgba(148, 134, 142, 0.3)', // 滑鼠懸停時的背景顏色
-                }, {
-                    label: '竹地板',
-                    data: [60, 65, 55, 70, 65], // 竹地板在各指標的得分
-                    backgroundColor: 'rgba(204, 194, 178, 0.1)', // 淺黃褐色（竹地板）
-                    borderColor: 'rgba(179, 170, 154, 1)', // 深黃褐色邊框
-                    borderWidth: 1,
-                    hoverBorderColor: 'rgba(179, 170, 154, 1)', // 滑鼠懸停時的邊框顏色
-                    hoverBackgroundColor: 'rgba(179, 170, 154, 0.3)', // 滑鼠懸停時的背景顏色
-                }]
-            },
-            options: {
-                responsive: true,
-                scale: {
-                    ticks: {
-                        beginAtZero: true,
-                        max: 100, // 設定得分最大值為 100
-                        stepSize: 20 // 每步長為 20
-                    }
-                },
-                plugins: {
-                    title: {
-                        display: true,
-                        text: '',
-                        font: {
-                            size: 18,
-                            weight: 'bold'
-                        },
-                        color: '#333'
-                    },
-                    tooltip: {
-                        callbacks: {
-                            // 自訂工具提示顯示方式
-                            label: function (tooltipItem) {
-                                return tooltipItem.dataset.label + ': ' + tooltipItem.raw + '%';
-                            }
-                        }
-                    }
-                }
-            }
-        });
-
-        // 創建圓餅圖
-        var ctx = document.getElementById('floorChart').getContext('2d');
-        var floorChart = new Chart(ctx, {
-            type: 'pie', // 使用圓餅圖
-            data: {
-                labels: ['超耐磨木地板', '實木地板', '復合木地板', '竹地板'], // 木地板種類
-                datasets: [{
-                    label: '',
-                    data: [42, 31, 16, 11], // 市場佔有率數據
-                    backgroundColor: [
-                        'rgba(217, 174, 171, 0.8)',  // 奶油色（超耐磨木地板）
-                        'rgba(243, 207, 185, 0.8)', // 淺粉色（實木地板）
-                        'rgba(179, 157, 174, 0.8)',  // 淺灰紫色（復合木地板）
-                        'rgba(204, 194, 178, 0.8)',  // 淺黃褐色（竹地板）
-                        // 'rgba(184, 178, 195, 0.8)'   // 淺薰衣草紫色（其他）
-                    ],
-                    borderColor: [
-                        'rgba(175, 132, 129, 1)',  // 深奶油色（超耐磨木地板）
-                        'rgba(193, 159, 135, 1)', // 深粉色（實木地板）
-                        'rgba(148, 134, 142, 1)',  // 深灰紫色（復合木地板）
-                        'rgba(179, 170, 154, 1)',  // 深黃褐色（竹地板）
-                        // 'rgba(158, 150, 161, 1)'   // 深薰衣草紫色（其他）
-                    ],
-                    borderWidth: 2, // 增加邊框寬度
-                    // 加入陰影效果
-                    hoverOffset: 4,
-                    shadowOffsetX: 3,
-                    shadowOffsetY: 3,
-                    shadowBlur: 5,
-                    shadowColor: 'rgba(0, 0, 0, 0.3)' // 陰影顏色
-                }]
-            },
-            options: {
-                responsive: true,
-                plugins: {
-                    title: {
-                        display: true,
-                        text: ''
-                    },
-                    tooltip: {
-                        callbacks: {
-                            // 自訂工具提示顯示方式
-                            label: function (tooltipItem) {
-                                return tooltipItem.label + ': ' + tooltipItem.raw + '%';
-                            }
-                        }
-                    },
-                    legend: {
-                        position: 'top',
-                        labels: {
-                            fontSize: 14
-                        }
-                    }
-                }
-            }
-        });
-
     </script>
 </body>
 
